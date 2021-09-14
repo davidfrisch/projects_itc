@@ -1,5 +1,5 @@
 //replace with your user:
-const GITHUB_URL = "https://api.github.com/users/IsraelTechChallengeITC";
+const GITHUB_URL = "https://github.com/davidfrisch";
 
 fetch(GITHUB_URL)
   .then(function(response) {
