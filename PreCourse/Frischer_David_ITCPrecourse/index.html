@@ -9,40 +9,60 @@
       href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/65094d0de2.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/65094d0de2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
-   <script src="./js/portfolio.js"></script>
-    <section>
-      <nav class="navbar">
-        <a href="./index.html">Home</a>
-        <a href="./pages/about.html">About</a>
-        <a href="./pages/contact.html"">Contact</a>
-      </nav>
-      
-      <div class="card">
-       
-        <img
-          id="profile-image"
-          alt="Israel Tech Challenge"
-          class="profile-image"
-        />
-        <h1 id="myName"></h1>
+  <body class="body-index">
+    <script src="./js/portfolio.js"></script>
 
-        <h2 id="subtitle">ITC Full Stack Development</h2>
+    <nav class="navbar">
+      <a href="./index.html">Home</a>
+      <a href="./pages/about.html">About</a>
+      <a href="./pages/contact.html">Contact</a>
+    </nav>
+
+    <div class="card">
+      <img
+        id="profile-image"
+        alt="Israel Tech Challenge"
+        class="profile-image"
+      />
+      <h1 id="myName"></h1>
+
+      <h2 id="subtitle">ITC Full Stack Development</h2>
+      <div>
+        <ul class="card-links">
+          <li class="card-li">
+            <i class="fab fa-linkedin"></i>
+            <a
+              href="https://www.linkedin.com/in/david-frischer"
+              class="linked-in"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="card-li">
+            <i class="fab fa-github-square"></i
+            ><a
+              href="https://github.com/davidfrisch"
+              class="github"
+              target="_blank"
+              >GitHub</a
+            >
+          </li>
+          <li class="card-li">
+            <i class="fab fa-stack-overflow"></i
+            ><a
+              href="https://stackoverflow.com/users/9288957/superdrf"
+              class="stackoverflow"
+              >StackOverflow</a
+            >
+          </li>
+        </ul>
       </div>
-    </section>
-
-
-    <section class='card-links'>
-      <ul>
-     
-        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/david-frischer" class="linked-in" target="_blank">LinkedIn</a></li>
-        <li><i class="fab fa-github-square"></i></i><a href="https://github.com/davidfrisch" class="github" target="_blank">GitHub</a></li>
-        <li><i class="fab fa-stack-overflow"></i></i><a href="https://stackoverflow.com/users/9288957/superdrf" class="stackoverflow">StackOverflow</a></li>
-      </ul>
-    </section>
+    </div>
 
     <footer>
       <div>&#169; Israel Tech Challenge</div>

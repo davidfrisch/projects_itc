@@ -1,12 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>About Page</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <script src="../js/about.js"></script>
+    <title>About David</title>
+  </head>
+
+  <body class="body-about-me">
+    <nav class="navbar">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="section-about-me">
+      <h1 class="h1-about-me">About me</h1>
+      <div class="div-why-like-coding">
+        <h2 class="h2-why-like-cloding">Why I like coding ?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+          adipisci magnam sint autem nostrum quam optio, quibusdam incidunt
+          necessitatibus, ad suscipit fuga. Impedit illo incidunt a ex vero
+          cumque facere.
+        </p>
+      </div>
+      <div>
+        <h2 class="h2-personal-experience">
+          My personal experience with coding
+        </h2>
+        <p class="p-personnal-experience">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum suscipit
+          expedita consectetur eius sit itaque ut commodi accusantium animi,
+          dolorum esse aut nostrum doloribus, praesentium mollitia voluptas
+          explicabo consequatur quibusdam.
+        </p>
+      </div>
+      <div>
+        <h2 class="h2-my-education">My education</h2>
+        <p class="p-my-education">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex rerum quo
+          deserunt iusto dicta quia unde quas consectetur. Dolor esse explicabo
+          magnam nisi placeat animi incidunt ipsum? Nesciunt, omnis itaque.
+        </p>
+      </div>
+      <div>
+        <h2 class="h2-personal-interest">My Personal Interest</h2>
+        <p class="p-personal-interest">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo placeat
+          sit et dolorum accusantium minus nostrum earum perferendis laborum
+          magni, corrupti exercitationem deserunt? Magni ratione repellat
+          nesciunt maxime quas voluptas?
+        </p>
+      </div>
+    </section>
+    <section class="section-born">
+      <h1>Where I was born</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, rem
+        quia corporis et dignissimos pariatur voluptatibus amet maxime placeat
+        perferendis eveniet ab, deserunt sunt sint commodi, quae expedita
+        ratione blanditiis!
+      </p>
+      <iframe
+        id="iframe-born"
+        width="496"
+        height="204"
+        src="https://maps.google.com/maps?q=paris&t=&z=11&ie=UTF8&iwloc=&output=embed"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
+    </section>
+
+
+    <section class="section-city-lived">
+    
+      <h1 class="h1-city-lived">Cities where I lived</h1>
+      <div class="div-city-lived">
+        <h2 id='h2-city-lived' class="h2-city-lived">Lausanne flag</h2>
+        <p id='p-city-lived'class="p-city-lived">I lived in Lausanne</p>
+      </div>
+        <iframe
+        id="iframe-gmap-lived"
+        width="496"
+        height="204"
+        src="https://maps.google.com/maps?q=Lausanne&t=&z=11&ie=UTF8&iwloc=&output=embed"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
+      <div class="buttons-city-gmap">
+      <button id="button-city-previous" onclick="goToPreviousCity()">Previous</button>
+      <button id="button-city-next" onclick="goToNextCity()">Next</button>
+    </section>
+  </body>
 </html>
