@@ -9,30 +9,30 @@ nav {
   text-align: center;
   top: 0;
   font-size: 1.5rem;
-  float: left;
 }
 
 footer {
   bottom: 0;
+  color: white;
   font-size: 0.8rem;
-  text-align: center;
-
+  display: flex;
+  background-color: black;
   width: 100%;
 }
 
 nav a,
 footer a {
   color: white;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
   text-decoration: none;
   display: inline-block;
   list-style-type: none;
-  border-radius: 1rem;
 }
 
 nav a {
   padding: 0 1rem;
   margin: 0 1rem;
+  border-radius: 1rem;
   background-color: #cccccc;
   border: 5px black solid;
 }
@@ -42,12 +42,14 @@ nav a:hover {
   color: black;
 }
 
-footer {
-  display: block;
+footer a:hover {
+  background-color: white;
+  color: black;
 }
 
+
 footer h3 {
-  padding: 1rem 0;
-  border: 5px green solid;
-  display: inline;
+  width: 90%;
+  position:relative;
+  text-align: right;
 }

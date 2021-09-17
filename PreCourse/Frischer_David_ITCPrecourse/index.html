@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,900&display=swap"
       rel="stylesheet"
     />
     <script
@@ -27,52 +27,59 @@
     </nav>
 
     <div class="card">
-      <img
+    <img
         id="profile-image"
-        alt="Israel Tech Challenge"
+        alt="David Github Image profile"
         class="profile-image"
       />
+    <div class="card-name">
       <h1 id="myName"></h1>
-
       <h2 id="subtitle">ITC Full Stack Development</h2>
-      <div>
-        <ul class="card-links">
+    </div>
+    <canvas id="canvas">
+    
+    </canvas>
+      <div class="card-links">
+        <ul>
           <li class="card-li">
-            <i class="fab fa-linkedin"></i>
             <a
               href="https://www.linkedin.com/in/david-frischer"
-              class="linked-in"
+              class="linkedin"
               target="_blank"
-              >LinkedIn</a
+              ><i class="fab fa-linkedin"></i> LinkedIn </i> &nbsp;</a
             >
           </li>
           <li class="card-li">
-            <i class="fab fa-github-square"></i
-            ><a
+           
+            <a
               href="https://github.com/davidfrisch"
               class="github"
               target="_blank"
-              >GitHub</a
+              > <i class="fab fa-github-square"></i> GitHub</a
             >
           </li>
           <li class="card-li">
-            <i class="fab fa-stack-overflow"></i
-            ><a
+            <a
               href="https://stackoverflow.com/users/9288957/superdrf"
               class="stackoverflow"
-              >StackOverflow</a
+              ><i class="fab fa-stack-overflow"></i
+            > StackOverflow</a
             >
           </li>
         </ul>
       </div>
     </div>
-
     <footer>
+      <div>
       <a href="./index.html">Home</a>
       <a href="./pages/about.html">About</a>
       <a href="./pages/contact.html">Contact</a>
+      </div>
+      <div></div>
       <h3 id="h3-footer">This page was built using:</h3>
+    
     </footer>
     <script src="./js/footer.js"></script>
   </body>
+  <script src="./js/home.js"></script>
 </html>

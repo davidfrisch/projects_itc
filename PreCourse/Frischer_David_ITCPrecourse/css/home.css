@@ -1,7 +1,23 @@
 /* Decoration for the card*/
 .body-index {
   background-image: url("../images/japan-small-waves.png");
+  background-repeat:round;
   background-color: #cccccc;
+}
+
+#div-japan-wave{
+  border: solid red 5px;
+  display: block;
+  right:100px;
+
+  
+}
+
+#japan-wave{
+  position:relative;
+   top:-6px;
+   border:red solid 5px;
+   display:block;
 }
 
 .card {
@@ -9,7 +25,6 @@
   align-items: center;
   text-align: center;
   width: 100%;
-  border: 5px solid red;
 }
 
 .profile-image {
@@ -17,14 +32,68 @@
   border: 0.5rem solid black;
   height: 180px;
   width: 180px;
+  margin: 2rem 0 0 0;
+}
+
+.card-links{
+  margin: 2rem 0;
+  clear: left;
+
 }
 
 .card-links li {
-  font-size: 1rem;
-  margin: 0 1rem;
+  font-size: 2rem;
+  margin: 0 3rem;
   list-style-type: none;
   display: inline;
+  border-radius: 30%;
+  border: 2px black solid;
+  background-color: #cccccc;
+  padding: 1rem;
 }
+
+.card-links li a{
+  text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.fa-search{
+  color: black;
+  visibility: hidden;
+}
+
+
+
+li:hover{
+  color: black;
+  content: "";
+  background: url("../images/search-solid.svg") no-repeat 0 0;
+  background-color: #cccccc;
+  background-size: 10%;
+  background-position: right;
+  display: inline;
+}
+
+
+
+
+.card-name{
+  color: rgba(255, 0, 0, 0.694);
+  font-size: 1.5rem;
+  /*https://stackoverflow.com/questions/13426875/text-border-using-css-border-around-text*/
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  opacity: 1;
+}
+
+.fab{
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+
 
 .fa-github-square {
   color: black;
