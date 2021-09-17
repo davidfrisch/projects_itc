@@ -1,0 +1,35 @@
+
+/*Styling for about me page*/
+.body-about-me {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.body-about-me h2 {
+  color: rgba(221, 0, 255, 0.954);
+}
+
+.section-about-me {
+  margin: 6rem 0rem 0rem 0rem;
+  border: 1rem solid red;
+}
+
+.section-born{
+  border: 1rem solid yellow
+}
+
+.section-city-lived {
+  border: 1rem solid green;
+}
+
+.gmap_paris {
+  overflow: hidden;
+  background: none !important;
+  height: 204px;
+  width: 496px;
+}
+
+#button-city-previous{
+  visibility: hidden;
+}

@@ -5,15 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/contact.css" rel="stylesheet" />
+    <link href="../css/navbar.css" rel="stylesheet" />
 
     <title>Contact David</title>
   </head>
   <body class="body-contact">
-    <nav class="navbar">
+    <nav class="navbar-header">
       <a href="../index.html">Home</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
-    <div>Contact Page</div>
+
+    <form
+      name="contact-form"
+      class="contact-form"
+      action="https://formspree.io/f/xzbyodlw"
+      method="POST"
+    >
+      <label for="first-name">First Name:</label>
+      <input type="text" name="first-name" id="first-name" maxlength=48 required=""/>
+      <label for="last-name" >Last Name:</label>
+      <input type="text" id="last-name" maxlength=48 />
+      <label for="email" required=""> Your email: </label>
+      <input id="email" type="email" name="_replyto" required=""/>
+      <label for="message">
+        Your Comment:
+      </label>
+      <textarea id="comment" name="message" required="" maxlength=500></textarea>
+
+      <button class="button-contact-submit-disable" name="button-contact-submit" type="submit">Send</button>
+      <script src="../js/contact.js"></script>
+
+    </form>
+
+    <footer>
+       <nav class="navbar-footer">
+        <a href="./index.html">Home</a>
+        <a href="./pages/about.html">About</a>
+        <a href="./pages/contact.html">Contact</a>
+      </nav>
+    </footer>
   </body>
+
 </html>
+
+

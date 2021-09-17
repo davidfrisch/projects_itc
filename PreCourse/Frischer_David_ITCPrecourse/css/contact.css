@@ -1,0 +1,21 @@
+/*Styling for Contact page*/
+.contact-form {
+  border: 1rem solid red;
+  margin-top: 100px;
+  padding: 2rem;
+  color: white;
+}
+
+label {
+  display: block;
+}
+
+.button-contact-submit-disable{
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.button-contact-submit-activate{
+  background-color: green;
+  color: white;
+}
