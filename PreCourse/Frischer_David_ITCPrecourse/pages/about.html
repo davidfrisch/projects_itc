@@ -8,7 +8,6 @@
     <link href="../css/about.css" rel="stylesheet" />
     <link href="../css/navbar.css" rel="stylesheet" />
 
-    <script src="../js/maps.js"></script>
     <title>About David</title>
   </head>
 
@@ -59,6 +58,7 @@
         </p>
       </div>
     </section>
+
     <section class="section-born">
       <h1>Where I was born</h1>
       <p>
@@ -79,15 +79,13 @@
       ></iframe>
     </section>
 
-
     <section class="section-city-lived">
-    
       <h1 class="h1-city-lived">Cities where I lived</h1>
       <div class="div-city-lived">
-        <h2 id='h2-city-lived' class="h2-city-lived">Lausanne flag</h2>
-        <p id='p-city-lived'class="p-city-lived">I lived in Lausanne</p>
+        <h2 id="h2-city-lived" class="h2-city-lived">Lausanne flag</h2>
+        <p id="p-city-lived" class="p-city-lived">I lived in Lausanne</p>
       </div>
-        <iframe
+      <iframe
         id="iframe-gmap-lived"
         width="496"
         height="204"
@@ -98,16 +96,21 @@
         marginwidth="0"
       ></iframe>
       <div class="buttons-city-gmap">
-      <button id="button-city-previous" onclick="goToPreviousCity()">Previous</button>
-      <button id="button-city-next" onclick="goToNextCity()">Next</button>
+        <button id="button-city-previous" onclick="goToPreviousCity()">
+          Previous
+        </button>
+        <button id="button-city-next" onclick="goToNextCity()">Next</button>
+      </div>
     </section>
 
     <footer>
-       <nav class="navbar-footer">
-        <a href="./index.html">Home</a>
-        <a href="./pages/about.html">About</a>
-        <a href="./pages/contact.html">Contact</a>
-      </nav>
+      <a href="./index.html">Home</a>
+      <a href="./pages/about.html">About</a>
+      <a href="./pages/contact.html">Contact</a>
+      <h3 id="h3-footer">This page was built using:</h3>
     </footer>
+
+    <script src="../js/footer.js"></script>
+    <script src="../js/maps.js"></script>
   </body>
 </html>

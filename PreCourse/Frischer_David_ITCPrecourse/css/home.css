@@ -1,0 +1,38 @@
+/* Decoration for the card*/
+.body-index {
+  background-image: url("../images/japan-small-waves.png");
+  background-color: #cccccc;
+}
+
+.card {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border: 5px solid red;
+}
+
+.profile-image {
+  border-radius: 50%;
+  border: 0.5rem solid black;
+  height: 180px;
+  width: 180px;
+}
+
+.card-links li {
+  font-size: 1rem;
+  margin: 0 1rem;
+  list-style-type: none;
+  display: inline;
+}
+
+.fa-github-square {
+  color: black;
+}
+
+.fa-stack-overflow {
+  color: #ec7c23;
+}
+.fa-linkedin {
+  color: #0a66c2;
+}
