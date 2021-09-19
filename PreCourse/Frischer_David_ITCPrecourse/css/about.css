@@ -1,12 +1,11 @@
 /*Styling for about me page*/
-.body-about-me {
+.body-about-me{
   background-color: black;
-  text-align: center;
   color: white;
-
 }
 
 h1{
+  text-align: center;
   font-size: 4rem;
   text-decoration: underline;
 }
@@ -15,9 +14,11 @@ h2 {
   font-size: 2rem;
 }
 
-p{
+
+section h3, section p, section a{
   text-align: left;
   font-size: 1rem;
+  margin-bottom: 2rem;
 }
 
 .section-about-me {
@@ -54,7 +55,6 @@ p{
   border-radius: 4rem;
   background-color: #506AD4;
   padding: 2rem;
-
 }
 
 iframe {
@@ -63,8 +63,10 @@ iframe {
   overflow: hidden;
   background: none !important;
   height: 204px;
-  width: 496px;
+  width: 95%;
 }
+
+
 
 button{
   border-radius: 1rem;
@@ -74,6 +76,8 @@ button{
   background-color: #506ad474;
   color: white;
 }
+
+
 
 button:hover{
   text-decoration: underline;
