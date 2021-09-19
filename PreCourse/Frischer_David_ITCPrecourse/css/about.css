@@ -1,35 +1,84 @@
-
 /*Styling for about me page*/
 .body-about-me {
   background-color: black;
   text-align: center;
   color: white;
+
 }
 
-.body-about-me h2 {
-  color: rgba(221, 0, 255, 0.954);
+h1{
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p{
+  text-align: left;
+  font-size: 1rem;
 }
 
 .section-about-me {
-  margin: 6rem 0rem 0rem 0rem;
-  border: 1rem solid red;
+  margin: 5rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  width: 50%;
+  background-color: #4146a6;
+  color: white;
+    border-radius: 4rem;
+
 }
 
-.section-born{
-  border: 1rem solid yellow
+
+
+
+
+.section-born {
+  margin: 5rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 2rem;
+  background-color: #9498F2;
+  border-radius: 4rem;
 }
 
 .section-city-lived {
-  border: 1rem solid green;
+  margin: 5rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 4rem;
+  background-color: #506AD4;
+  padding: 2rem;
+
 }
 
-.gmap_paris {
+iframe {
+  border: #4146a6 solid 1rem;
+  border-radius: 1rem;
   overflow: hidden;
   background: none !important;
   height: 204px;
   width: 496px;
 }
 
-#button-city-previous{
+button{
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0 1rem;
+  background-color: #506ad474;
+  color: white;
+}
+
+button:hover{
+  text-decoration: underline;
+}
+
+#button-city-previous {
   visibility: hidden;
 }

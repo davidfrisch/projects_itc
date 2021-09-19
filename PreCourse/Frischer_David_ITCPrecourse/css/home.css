@@ -5,6 +5,11 @@
   background-color: #cccccc;
 }
 
+nav a {
+  background-color: #cccccc;
+  border: 3px black solid;
+}
+
 #div-japan-wave{
   border: solid red 5px;
   display: block;
@@ -28,11 +33,11 @@
 }
 
 .profile-image {
+  margin: 6rem 0 0 0;
   border-radius: 50%;
   border: 0.5rem solid black;
   height: 180px;
   width: 180px;
-  margin: 2rem 0 0 0;
 }
 
 .card-links{

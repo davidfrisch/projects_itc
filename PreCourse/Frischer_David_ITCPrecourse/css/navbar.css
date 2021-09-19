@@ -2,7 +2,9 @@
 nav,
 footer {
   position: fixed;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
 }
 
 nav {
@@ -31,11 +33,13 @@ footer a {
 
 nav a {
   padding: 0 1rem;
-  margin: 0 1rem;
+  margin: 1rem 1rem;
   border-radius: 1rem;
-  background-color: #cccccc;
-  border: 5px black solid;
+  background-color: black;
+  border: 5px white solid;
 }
+
+
 
 nav a:hover {
   background-color: white;
