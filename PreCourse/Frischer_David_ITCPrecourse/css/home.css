@@ -12,6 +12,15 @@
   }
 }
 
+@keyframes backspin {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .card{
   position: relative;
   margin: auto;
@@ -26,11 +35,12 @@
 
 
 .ring{
-  animation: spin 5s infinite;
   position: absolute;
   left: 12vw;
   width: 35vw;
 }
+
+
 
 
 .profile-image {
@@ -43,7 +53,7 @@
 }
 
 .card-links{
-  margin: 8vw 0;
+  margin: 15vw 0;
   clear: left;
 }
 

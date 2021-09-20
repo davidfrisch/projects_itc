@@ -6,10 +6,19 @@
     <link href="./css/home.css" rel="stylesheet" />
     <link href="./css/navbar.css" rel="stylesheet" />
 
+    <!--Font Awesome Kit-->
     <script
       src="https://kit.fontawesome.com/65094d0de2.js"
       crossorigin="anonymous"
     ></script>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="body-index">
     <script src="./js/portfolio.js"></script>
@@ -21,7 +30,14 @@
     </nav>
 
     <div class="card">
-      <img class="ring" src="./images/ring.png"  alt="slingring Marvel" />
+      <img
+        onclick="spin()"
+        id="ring"
+        class="ring"
+        src="./images/ring.png"
+        width="700px"
+        alt="slingring Marvel"
+      />
       <img
         id="profile-image"
         alt="David Github Image profile"
@@ -30,8 +46,8 @@
       <div class="card-name">
         <h1 id="myName"></h1>
         <h2 id="subtitle">ITC Full Stack Development</h2>
+        <p>(Click on the ring)</p>
       </div>
-      <canvas id="canvas"> </canvas>
       <div class="card-links">
         <ul>
           <li class="card-li">
@@ -55,7 +71,6 @@
             <a
               href="https://stackoverflow.com/users/9288957/superdrf"
               class="stackoverflow"
-              target="_blank"
               ><i class="fab fa-stack-overflow"></i> StackOverflow</a
             >
           </li>
