@@ -1,66 +1,65 @@
 /* Decoration for the card*/
 .body-index {
-  background-image: url("../images/japan-small-waves.png");
-  background-repeat:round;
-  background-color: #cccccc;
+  background-color: black;
 }
 
-nav a {
-  background-color: #cccccc;
-  border: 3px black solid;
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-#div-japan-wave{
-  border: solid red 5px;
-  display: block;
-  right:100px;
-}
-
-#japan-wave{
-  position:relative;
-   top:-6px;
-   border:red solid 5px;
-   display:block;
-}
-
-.card {
+.card{
+  position: relative;
   margin: auto;
+  margin-top: 5vw;
   align-items: center;
   text-align: center;
-  width: 100%;
+  width: 60vw;
+  background-color: #0a35c2;
+  border: #0a10c2 10px solid;
+  border-radius: 4%;
 }
 
+
+.ring{
+  animation: spin 60s infinite;
+  position: absolute;
+  left: 12vw;
+  width: 35vw;
+}
+
+
 .profile-image {
-  margin: 6rem 0 0 0;
+  position: relative;
+  margin: 12% 0 0 0;
   border-radius: 50%;
-  border: 0.5rem solid black;
-  height: 180px;
-  width: 180px;
+  border: 0.5% solid black;
+  height: 7vw;
+  width: 7vw;
 }
 
 .card-links{
-  margin: 2rem 0;
+  margin: 8vw 0;
   clear: left;
-
 }
 
 .card-links li {
-  font-size: 2rem;
-  margin: 0 3rem;
+  font-size: 1vw;
+  margin: 0 3vw;
   list-style-type: none;
   display: inline;
   border-radius: 30%;
   border: 2px black solid;
   background-color: #cccccc;
-  padding: 1rem;
+  padding: 1vw;
 }
 
 .card-links li a{
   text-decoration: none;
-}
-
-a, a:visited, a:hover, a:active {
-  color: inherit;
 }
 
 .fa-search{
@@ -68,43 +67,35 @@ a, a:visited, a:hover, a:active {
   visibility: hidden;
 }
 
-
-
 li:hover{
   color: black;
   content: "";
   background: url("../images/search-solid.svg") no-repeat 0 0;
   background-color: #cccccc;
-  background-size: 10%;
+  background-size: 1vw;
   background-position: right;
   display: inline;
 }
 
-
-
-
 .card-name{
+  font-size: 1vw;
   color: rgba(255, 0, 0, 0.694);
-  font-size: 1.5rem;
-  /*https://stackoverflow.com/questions/13426875/text-border-using-css-border-around-text*/
-  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-  opacity: 1;
 }
 
 .fab{
-  margin: 0 1rem;
-  font-size: 2rem;
+  margin: 0 1vw;
+  font-size: 1vw;
 }
 
-
-
-.fa-github-square {
+.github {
   color: black;
 }
 
-.fa-stack-overflow {
-  color: #ec7c23;
+.stackoverflow {
+  color: #bf671e;
+  padding-right: 1vw;
 }
+
 .fa-linkedin {
   color: #0a66c2;
 }

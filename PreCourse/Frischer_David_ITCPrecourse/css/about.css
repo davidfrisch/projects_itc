@@ -6,31 +6,43 @@
 
 h1{
   text-align: center;
-  font-size: 4rem;
+  font-size: 3vw;
   text-decoration: underline;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 
 section h3, section p, section a{
-  text-align: left;
-  font-size: 1rem;
-  margin-bottom: 2rem;
+  text-align: justify;
+  margin-bottom: 2vw;
+}
+
+section h3{
+  font-size: 1vw;
+}
+
+section p, section a{
+  font-size: .8vw;
+  line-height: 1vw;
+  
+}
+
+ul {
+  font-size: 1vw;
 }
 
 .section-about-me {
-  margin: 5rem 0;
+  margin: 4vw 0;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
+  padding: 1.5vw;
   width: 50%;
   background-color: #4146a6;
   color: white;
-    border-radius: 4rem;
-
+  border-radius: 4vw;
 }
 
 
@@ -38,41 +50,42 @@ section h3, section p, section a{
 
 
 .section-born {
-  margin: 5rem 0;
+  margin: 5vw 0;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding: 2rem;
+  padding: 1.5vw;
   background-color: #9498F2;
-  border-radius: 4rem;
+  border-radius: 4vw;
 }
 
 .section-city-lived {
-  margin: 5rem 0;
+  margin: 5vw 0;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border-radius: 4rem;
+  border-radius: 4vw;
   background-color: #506AD4;
-  padding: 2rem;
+  padding: 1.5vw;
 }
 
 iframe {
-  border: #4146a6 solid 1rem;
-  border-radius: 1rem;
+  border: #4146a6 solid 1vw;
+  border-radius: 1vw;
   overflow: hidden;
   background: none !important;
-  height: 204px;
-  width: 95%;
+  height: 10vw;
+  width: 45vw;
 }
 
-
-
+.buttons-city-gmap{
+  text-align: center;
+}
 button{
-  border-radius: 1rem;
-  font-size: 1rem;
-  padding: 1rem;
-  margin: 0 1rem;
+  border-radius: 1vw;
+  font-size: 1vw;
+  padding: .5vw 1vw;
+  margin: .5vw .5vw;
   background-color: #506ad474;
   color: white;
 }

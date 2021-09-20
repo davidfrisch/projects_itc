@@ -3,15 +3,9 @@
   <head>
     <title>ITC Precourse</title>
     <link href="./css/style.css" rel="stylesheet" />
-     <link href="./css/navbar.css" rel="stylesheet" />
     <link href="./css/home.css" rel="stylesheet" />
+    <link href="./css/navbar.css" rel="stylesheet" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,900&display=swap"
-      rel="stylesheet"
-    />
     <script
       src="https://kit.fontawesome.com/65094d0de2.js"
       crossorigin="anonymous"
@@ -27,18 +21,17 @@
     </nav>
 
     <div class="card">
-    <img
+      <img class="ring" src="./images/ring.png"  alt="slingring Marvel" />
+      <img
         id="profile-image"
         alt="David Github Image profile"
         class="profile-image"
       />
-    <div class="card-name">
-      <h1 id="myName"></h1>
-      <h2 id="subtitle">ITC Full Stack Development</h2>
-    </div>
-    <canvas id="canvas">
-    
-    </canvas>
+      <div class="card-name">
+        <h1 id="myName"></h1>
+        <h2 id="subtitle">ITC Full Stack Development</h2>
+      </div>
+      <canvas id="canvas"> </canvas>
       <div class="card-links">
         <ul>
           <li class="card-li">
@@ -46,24 +39,24 @@
               href="https://www.linkedin.com/in/david-frischer"
               class="linkedin"
               target="_blank"
-              ><i class="fab fa-linkedin"></i> LinkedIn </i> &nbsp;</a
+              ><i class="fab fa-linkedin"> LinkedIn </i> &nbsp;</a
             >
           </li>
           <li class="card-li">
-           
             <a
               href="https://github.com/davidfrisch"
               class="github"
               target="_blank"
-              > <i class="fab fa-github-square"></i> GitHub</a
+            >
+              <i class="fab fa-github-square"></i> GitHub</a
             >
           </li>
           <li class="card-li">
             <a
               href="https://stackoverflow.com/users/9288957/superdrf"
               class="stackoverflow"
-              ><i class="fab fa-stack-overflow"></i
-            > StackOverflow</a
+              target="_blank"
+              ><i class="fab fa-stack-overflow"></i> StackOverflow</a
             >
           </li>
         </ul>
@@ -71,13 +64,12 @@
     </div>
     <footer>
       <div>
-      <a href="./index.html">Home</a>
-      <a href="./pages/about.html">About</a>
-      <a href="./pages/contact.html">Contact</a>
+        <a href="./index.html">Home</a>
+        <a href="./pages/about.html">About</a>
+        <a href="./pages/contact.html">Contact</a>
       </div>
       <div></div>
       <h3 id="h3-footer">This page was built using:</h3>
-    
     </footer>
     <script src="./js/footer.js"></script>
   </body>
