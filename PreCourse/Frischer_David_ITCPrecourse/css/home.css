@@ -26,7 +26,7 @@
 
 
 .ring{
-  animation: spin 60s infinite;
+  animation: spin 5s infinite;
   position: absolute;
   left: 12vw;
   width: 35vw;
