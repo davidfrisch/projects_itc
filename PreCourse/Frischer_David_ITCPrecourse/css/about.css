@@ -1,10 +1,10 @@
 /*Styling for about me page*/
-.body-about-me{
+.body-about-me {
   background-color: black;
   color: white;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 3vw;
   text-decoration: underline;
@@ -14,20 +14,18 @@ h2 {
   font-size: 2vw;
 }
 
-
-section h3, section p, section a{
+section h3, section p, section a {
   text-align: justify;
   margin-bottom: 2vw;
 }
 
-section h3{
+section h3 {
   font-size: 1vw;
 }
 
-section p, section a{
-  font-size: .8vw;
+section p, section a {
+  font-size: 0.8vw;
   line-height: 1vw;
-  
 }
 
 ul {
@@ -45,17 +43,13 @@ ul {
   border-radius: 4vw;
 }
 
-
-
-
-
 .section-born {
   margin: 5vw 0;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   padding: 1.5vw;
-  background-color: #9498F2;
+  background-color: #9498f2;
   border-radius: 4vw;
 }
 
@@ -65,7 +59,7 @@ ul {
   margin-right: auto;
   width: 50%;
   border-radius: 4vw;
-  background-color: #506AD4;
+  background-color: #506ad4;
   padding: 1.5vw;
 }
 
@@ -73,26 +67,25 @@ iframe {
   border: #4146a6 solid 1vw;
   border-radius: 1vw;
   overflow: hidden;
-  background: none !important;
+  background: none;
   height: 10vw;
   width: 45vw;
 }
 
-.buttons-city-gmap{
+.buttons-city-gmap {
   text-align: center;
 }
-button{
+
+button {
   border-radius: 1vw;
   font-size: 1vw;
-  padding: .5vw 1vw;
-  margin: .5vw .5vw;
+  padding: 0.5vw 1vw;
+  margin: 0.5vw 0.5vw;
   background-color: #506ad474;
   color: white;
 }
 
-
-
-button:hover{
+button:hover {
   text-decoration: underline;
 }
 
