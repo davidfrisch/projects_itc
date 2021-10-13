@@ -2,9 +2,17 @@
     background-color: w;
 }
 
+.graph-legends{
+    height: 70%;   
+    display: flex;
+    align-self:center;
+}
+
 .graph-legend > div{
     margin: 2vw 1vw;
 }
+
+
 
 .graph-icon-legend{
     position: relative;
