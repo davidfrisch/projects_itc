@@ -1,0 +1,19 @@
+.main-page {
+  position: relative;
+  flex: 1;
+}
+
+.main-search {
+  display: inline-flex;
+  width: 100%;
+  padding: 1vw 5vw;
+}
+
+div > .main-search {
+  flex-grow: 1;
+}
+
+.search-input {
+  flex-grow: 2;
+  border: none;
+}

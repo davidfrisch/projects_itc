@@ -1,0 +1,69 @@
+.event-feed-card {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+}
+
+.event-feed-card > div {
+  display: flex;
+  flex-direction: row;
+  margin: 1vw 3vw;
+}
+
+
+.title-card {
+  flex: 1;
+}
+
+.type-card {
+  flex: 1;
+  text-align: end;
+}
+
+.profile-card{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-card > div {
+  margin: 1vw 1vw;
+}
+
+
+.due-date{
+    border: orange solid 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.due-date > div{
+    margin-right: 1vw;
+}
+
+.name-card {
+  display: flex;
+  align-items: center; 
+}
+
+
+
+.status-card {
+  flex: .3;
+  text-align: end;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+}
+
+.status-card > button{
+    width: auto;
+}
+
+.status-card > input{
+    width: 10%;
+    margin-right: .5vw;
+
+}

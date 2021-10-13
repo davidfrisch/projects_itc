@@ -1,0 +1,55 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.main-page{
+  position: relative;
+}
+
+.main-container{
+  position: relative;
+}
+
+.main-container > div{
+  margin-top: 2vw;
+  padding: 2vw;
+}
+
+.graph-feed > div, .chart-feed >div{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.top-card.analytic{
+    border-bottom: black 1px solid;
+}
+
+.filter-task{
+    flex:1;
+}
+
+.sidebar{
+  position: relative;
+}
+
+
+.profile-pic {
+  border-radius: 100%;
+}
+
+.filter-task{
+  text-align: end;
+}
+
+#period{
+    color: gray;
+}
+
+#period-select{
+    color: skyblue;
+    border: none;
+    background-color: none;
+}

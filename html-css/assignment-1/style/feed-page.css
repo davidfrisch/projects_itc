@@ -1,0 +1,22 @@
+.feed-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: green solid 1px;
+  height: 100%;
+}
+
+.welcome-feed-page {
+  border: 1px red solid;
+  flex: 1;
+}
+
+.event-feed {
+  margin:1vw 0;
+  flex: 2;
+  height: 100px;
+}
+
+.main-page > div{
+  padding: 4vw;
+}

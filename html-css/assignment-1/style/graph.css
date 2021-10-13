@@ -1,0 +1,25 @@
+.graph-feed{
+    background-color: w;
+}
+
+.graph-legend > div{
+    margin: 2vw 1vw;
+}
+
+.graph-icon-legend{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 4px lightblue solid;
+}
+
+.graph-image{
+    display: flex;
+}
+
+.graph-image > img{
+    width: 100%;
+}
+
+

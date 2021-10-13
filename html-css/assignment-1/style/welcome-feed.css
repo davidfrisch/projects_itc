@@ -1,0 +1,17 @@
+.top-welcome-feed-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.welcome-feed-page > div{
+    margin: 10px 0;
+}
+
+.task-info {
+  flex: 1;
+}
+
+
+
+
+
