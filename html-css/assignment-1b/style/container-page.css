@@ -1,25 +1,24 @@
 .main-page {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
 }
 
 .main-top-bar {
+  margin: 1.78%;
   display: flex;
   justify-content: center;
-  flex: 0;
+}
+
+.main-container {
+  flex: 10 0 0;
+  display: flex;
 }
 
 .search-input {
   flex: 1;
 }
 
-.main-container {
-  flex: 1;
-  border: solid 1px green;
-  display: flex;
-  
-}
+
 
 .feed-main-container {
   width: 55%;

@@ -23,70 +23,74 @@
   <body>
     <!-- Sidebar -->
     <aside class="sidebar">
-      <section class="title-sidebar">Saas Kit</section>
-
-      <section class="profile-sidebar">
-        <div class="profile-pic">
-          <img src="./res/image_2.png" alt="Sierra Ferguson Picture" />
+      <div class="top-sidebar">
+        <section class="title-sidebar">Saas Kit</section>
+      </div>
+      <div class="center-sidebar">
+        <section class="profile-sidebar">
+          <div class="profile-pic">
+            <img src="./res/image_2.png" alt="Sierra Ferguson Picture" />
+          </div>
+          <div class="profile-text">
+            <div class="profile-name">Sierra Ferguson</div>
+            <div class="profile-email">s.ferguson@gmail.com</div>
+          </div>
+        </section>
+        <section class="main-menu-sidebar">
+          <ul>
+            <li>
+              <a href="#" id="dashboard"
+                ><object data="res/dashboard.svg"></object> Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="#" id="Tasks"
+                ><object data="./res/tasks.svg"></object> Tasks</a
+              >
+            </li>
+            <li>
+              <a href="#" id="email"
+                ><object data="./res/email.svg"></object> E-mail</a
+              >
+            </li>
+            <li>
+              <a href="#" id="contacts"
+                ><object data="./res/contacts.svg"></object> Contacts</a
+              >
+            </li>
+            <li>
+              <a href="#" id="Chat"
+                ><object data="./res/chat.svg"></object> Chat</a
+              >
+            </li>
+            <li>
+              <a href="#" id="deals"
+                ><object data="./res/deals.svg"></object> Deals</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="bottom-sidebar">
+        <div id="others-sidebar">
+          <ul>
+            <li>
+              <a href="" id="settings"
+                ><object data="./res/settings.svg"></object>Settings</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="profile-text">
-          <div class="profile-name">Sierra Ferguson</div>
-          <div class="profile-email">s.ferguson@gmail.com</div>
+        <div class="toggle-sidebar">
+          <ul>
+            <li>
+              <a href="" id="toggle"
+                ><object data="./res/toggle.svg"></object>Toggle sidebar</a
+              >
+            </li>
+          </ul>
         </div>
-      </section>
-      <section class="main-menu-sidebar">
-        <ul>
-          <li>
-            <a href="#" id="dashboard"
-              ><object data="res/dashboard.svg"></object> Dashboard
-            </a>
-          </li>
-          <li>
-            <a href="#" id="Tasks"
-              ><object data="./res/tasks.svg"></object> Tasks</a
-            >
-          </li>
-          <li>
-            <a href="#" id="email"
-              ><object data="./res/email.svg"></object> E-mail</a
-            >
-          </li>
-          <li>
-            <a href="#" id="contacts"
-              ><object data="./res/contacts.svg"></object> Contacts</a
-            >
-          </li>
-          <li>
-            <a href="#" id="Chat"
-              ><object data="./res/chat.svg"></object> Chat</a
-            >
-          </li>
-          <li>
-            <a href="#" id="deals"
-              ><object data="./res/deals.svg"></object> Deals</a
-            >
-          </li>
-        </ul>
-      </section>
-      <section id="others-sidebar">
-        <ul>
-          <li>
-            <a href="" id="settings"
-              ><object data="./res/settings.svg"></object>Settings</a
-            >
-          </li>
-        </ul>
-      </section>
-
-      <section class="bottom-sidebar">
-        <ul>
-          <li>
-            <a href="" id="toggle"
-              ><object data="./res/toggle.svg"></object>Toggle sidebar</a
-            >
-          </li>
-        </ul>
-      </section>
+      </div>
     </aside>
     <!-- Main page -->
     <div class="main-page">
@@ -261,7 +265,11 @@
             </div>
 
             <div class="graph-image">
-              <img class="analytic-image" src="./res/deals_graphic.png" alt="" />
+              <img
+                class="analytic-image"
+                src="./res/deals_graphic.png"
+                alt=""
+              />
             </div>
           </div>
           <div class="pie-feed">
