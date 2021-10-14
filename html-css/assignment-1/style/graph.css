@@ -1,33 +1,35 @@
-.graph-feed{
-    background-color: w;
+.graph-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
-.graph-legends{
-    height: 70%;   
-    display: flex;
-    align-self:center;
+.graph-legends {
+  height: 70%;
+  display: flex;
 }
 
-.graph-legend > div{
-    margin: 2vw 1vw;
+.graph-legend > div {
+  margin: 2vw 1vw;
 }
 
-
-
-.graph-icon-legend{
-    position: relative;
-    height: 15px;
-    width: 15px;
-    border-radius: 100%;
-    border: 4px lightblue solid;
+.graph-icon-legend {
+  position: relative;
+  height: 3vw;
+  width: 3vw;
+  border-radius: 100%;
+  border: .6vw lightblue solid;
 }
 
-.graph-image{
-    display: flex;
+.graph-image {
+  border: blue 1px dotted;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .graph-image > img{
-    width: 100%;
+    width: 90%;
 }
 
 

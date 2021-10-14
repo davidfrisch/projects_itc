@@ -20,29 +20,32 @@ section {
   font-size: 2vw;
 }
 
-
-
 .profile {
   flex: 0.5;
   border-top: #8f8f8f5a 1px solid;
   display: flex;
-  flex-direction: row;
 }
 
-.div-profile-pic {
+
+.profile-pic {
   text-align: center;
   margin-left: 1vw;
   padding: 0 1vw;
 }
 
-
-h2.profile-text {
-  font-size: 14px;
+.profile-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-h3.profile-text {
+.profile-name {
+  font-size: 60%;
+}
+
+.profile-email{
   color: #8f8f8f;
-  font-size: 10px;
+  font-size:40%;
 }
 
 li {
@@ -54,10 +57,13 @@ li {
   display: flex;
   text-decoration: none;
   color: #000000;
+  font-size: 80%;
 }
 
 * > ul > li > a > object {
   padding-right: 1vw;
+  width: 15%;
+  height: 15%;
 }
 
 .main-menu {

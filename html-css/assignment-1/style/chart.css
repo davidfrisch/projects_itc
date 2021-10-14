@@ -1,38 +1,51 @@
-.chart-feed {
-  background-color: grey;
-}
+
 
 .chart > div {
   flex: 1;
   text-align: center;
 }
 
-.graph-circle > img {
-  width: 100%;
+.chart-circle{
+  display: flex;
+  justify-content: center;
 }
 
-.graph-legends {
-  border: green solid 1px;
+.chart-circle > img {
+  width: 80%;
+  margin: 2vw 0;
+}
+
+.chart-legends {
+  border: green dotted 4px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-.graph-legend{
-  flex: 1;
+.chart-legend{
+  border: red 1px solid;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  border: red solid 1px;
+  justify-content: left;
 }
 
-.graph-icon-legend.orange {
+.chart-icon-legend {
+  position: relative;
+   height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  border: .6vw lightblue solid;
+  margin: 0 1vw;
+}
+
+.chart-icon-legend.orange {
   border-color: orange;
 }
 
-.graph-icon-legend.green {
+.chart-icon-legend.green {
   border-color: green;
 }
 
-.graph-icon-legend.red {
+.chart-icon-legend.red {
   border-color: red;
 }

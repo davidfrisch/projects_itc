@@ -1,23 +1,26 @@
 .event-feed-card {
   display: flex;
   flex-direction: column;
+  margin: 2vw 0;
   background-color: gray;
 }
 
 .event-feed-card > div {
   display: flex;
-  flex-direction: row;
   margin: 1vw 3vw;
 }
 
+.top-card{
+  display: flex;
+}
 
-.title-card {
-  flex: 1;
+.title-card{
+  flex:4;
 }
 
 .type-card {
-  flex: 1;
   text-align: end;
+  flex:1;
 }
 
 .profile-card{
@@ -33,6 +36,7 @@
 
 .due-date{
     border: orange solid 1px;
+    font-size: 4vw;
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -47,8 +51,6 @@
   align-items: center; 
 }
 
-
-
 .status-card {
   flex: .3;
   text-align: end;
@@ -58,12 +60,22 @@
   justify-content:flex-end;
 }
 
-.status-card > button{
-    width: auto;
+.button-status-card{
+  border-radius: 1vw;
+  font-size: 2vw;
+  color: white;
+  border: none;
+}
+
+.button-completed{
+  background-color: green;
+}
+
+.button-ended{
+  background-color: red;
 }
 
 .status-card > input{
-    width: 10%;
+    width: 2vw;
     margin-right: .5vw;
-
 }
