@@ -1,6 +1,8 @@
 .event-feed{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+
 }
 
 .event-feed-card{

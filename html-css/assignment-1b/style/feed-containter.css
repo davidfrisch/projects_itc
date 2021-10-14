@@ -5,9 +5,10 @@
 }
 
 .welcome-feed {
-  background-color: lightblue;
+  background-color: blueviolet;
 }
 
 .event-feed {
   background-color: gray;
+  padding: 1vw;
 }

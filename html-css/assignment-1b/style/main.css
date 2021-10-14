@@ -8,7 +8,6 @@ html, body{
 
 .sidebar{
     flex:1;
-    border: green solid 1px;
 }
 
 .main-page{

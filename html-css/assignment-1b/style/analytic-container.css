@@ -1,7 +1,7 @@
 .analytic-main-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -10,14 +10,14 @@
   width: 90%;
 }
 
-img.analytic-image{
-    width: 90%;
+img.analytic-image {
+  width: 90%;
 }
 
 /* Function chart card */
 
 .graph-feed {
-  background-color: gray;
+  background-color: yellow;
 }
 
 .graph-icon {
@@ -29,26 +29,23 @@ img.analytic-image{
   align-items: center;
 }
 
-
-
 /* Pie chart card */
 
 .pie-feed {
-  background-color: gray;
+  background-color: yellow;
 }
 
-.pie{
-    display: flex;
+.pie {
+  display: flex;
 }
 
-.pie-legends{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.pie-legends {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.pie-legend{
-    display: flex;
-    align-items: center;
+.pie-legend {
+  display: flex;
+  align-items: center;
 }
-
