@@ -1,0 +1,13 @@
+.feed-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.welcome-feed {
+  background-color: lightblue;
+}
+
+.event-feed {
+  background-color: gray;
+}

@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  justify-content: stretch;
 }
 
 .main-top-bar {
@@ -19,35 +18,31 @@
   flex: 1;
   border: solid 1px green;
   display: flex;
-  justify-content: space-around;
+  
 }
 
 .feed-main-container {
-  width: 50%;
-  height: 100%;
-  border: solid 1px blue;
+  width: 55%;
+  background-color: green;
 }
 
 .analytic-main-container {
-  width: 50%;
-  height: 100%;
-  border: purple 1px solid;
+  width: 45%;
+  background-color: red;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .main-container {
     flex-direction: column;
   }
 
   .feed-main-container {
     width: 100%;
-    height: 100%;
     border: solid 1px blue;
   }
 
   .analytic-main-container {
     width: 100%;
-    height: 100%;
     border: purple 1px solid;
   }
-}
+} 

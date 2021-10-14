@@ -1,0 +1,22 @@
+.welcome-feed{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.top-welcome-feed-page{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.filter-task{
+    justify-self: flex-end;
+    background-color: red;
+    margin-left: auto;
+}
+
+.calendar{
+    display: flex;
+    justify-content: space-between;
+}
+

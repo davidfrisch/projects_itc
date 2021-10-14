@@ -1,0 +1,37 @@
+.event-feed{
+    display: flex;
+    flex-direction: column;
+}
+
+.event-feed-card{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    padding: 1vw;
+}
+
+.top-card{
+    display: flex;
+}
+
+.type-card{
+    margin-left: auto;
+}
+
+.due-date{
+    display: flex;
+}
+
+.bottom-card{
+    display: flex;
+    align-items: flex-end;
+}
+
+.status-card{
+    margin-left: auto;
+}
+
+.profile-card{
+    display: flex;
+    align-items: center;
+}

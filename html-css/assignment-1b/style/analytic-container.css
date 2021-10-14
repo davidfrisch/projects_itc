@@ -1,0 +1,54 @@
+.analytic-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.analytic-main-container > div {
+  padding: 2vw;
+  width: 90%;
+}
+
+img.analytic-image{
+    width: 90%;
+}
+
+/* Function chart card */
+
+.graph-feed {
+  background-color: gray;
+}
+
+.graph-icon {
+  border-color: lightblue;
+}
+
+.graph-legend {
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* Pie chart card */
+
+.pie-feed {
+  background-color: gray;
+}
+
+.pie{
+    display: flex;
+}
+
+.pie-legends{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pie-legend{
+    display: flex;
+    align-items: center;
+}
+

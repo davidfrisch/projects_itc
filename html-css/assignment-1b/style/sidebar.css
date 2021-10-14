@@ -7,7 +7,7 @@
 }
 
 .bottom-sider{
-    justify-self: flex-end;
+  justify-self: flex-end;
 }
 
 .sidebar > section {
@@ -21,4 +21,8 @@
 
 .sidebar > * > ul > li > a {
   text-decoration: none;
+}
+
+.profile-sidebar{
+  display: flex;
 }
