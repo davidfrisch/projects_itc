@@ -1,0 +1,24 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  border: purple 1px solid;
+}
+
+.bottom-sider{
+    justify-self: flex-end;
+}
+
+.sidebar > section {
+  border: 1px red solid;
+}
+
+
+.sidebar > * > ul > li {
+  list-style-type: none;
+}
+
+.sidebar > * > ul > li > a {
+  text-decoration: none;
+}
