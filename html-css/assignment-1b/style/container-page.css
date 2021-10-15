@@ -4,21 +4,20 @@
 }
 
 .main-top-bar {
-  margin: 1.78%;
+  position: relative;
+  
+  padding: 1em;
   display: flex;
   justify-content: center;
 }
 
 .main-container {
-  flex: 10 0 0;
   display: flex;
 }
 
 .search-input {
   flex: 1;
 }
-
-
 
 .feed-main-container {
   width: 55%;

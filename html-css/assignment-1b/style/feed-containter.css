@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-.welcome-feed {
+  position: relative;
   background-color: blueviolet;
 }
+
+
 
 .event-feed {
   background-color: gray;
