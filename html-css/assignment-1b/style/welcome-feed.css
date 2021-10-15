@@ -1,0 +1,34 @@
+.welcome-feed {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 1.4vw;
+}
+
+.top-welcome-feed-page {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.progress {
+  margin: 1.5vw 0;
+}
+
+.date {
+  margin-bottom: 1vw;
+}
+
+.calendar {
+  display: flex;
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.calendar-day-date{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
