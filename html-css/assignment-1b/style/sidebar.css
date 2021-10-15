@@ -2,50 +2,69 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: stretch;
-  border: purple 1px solid;
 }
 
-.top-sidebar{
+.top-sidebar {
   position: relative;
   padding: 1.1em;
-  border: red 1px solid;
 }
 
-.center-sidebar{
-  flex: 5 1 2vw;
-  margin: 2vw 0 ;
+.center-sidebar {
+  margin: 2vw 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
+.main-menu-sidebar{
+  margin: 1vw 0;
+}
+
+
+
 li {
-  margin: 1.5vw 1vw;
+  margin-top: 1vw;
+  display: flex;
+  margin-left: 1vw;
 }
 
 a {
   display: flex;
   justify-content: flex-start;
-
 }
 
-a > object{
+a > object {
   margin-right: 1vw;
 }
 
 
-.bottom-sidebar{
-  flex: 10 1 2vw;
+.profile-sidebar {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1vw;
+}
+
+.profile-text > div {
+  margin-left: 1vw;
+}
+
+.profile-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.profile-sidebar{
+.other-sidebar {
   display: flex;
-  justify-content: space-evenly;
-
+  flex-direction: column;
+  margin-left: 1vw;
 }
 
 
+
+.bottom-sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: 1vw;
+}

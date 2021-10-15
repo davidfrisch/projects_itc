@@ -1,3 +1,11 @@
+ul {
+ list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
 .circle-icon.red {
   border-color: red;
 }
@@ -7,3 +15,30 @@
 .circle-icon.orange {
   border-color: orange;
 }
+
+/* sidebar */
+
+.top-sidebar{
+  border-bottom: 1px solid #EBEFF2;
+  color: #109CF1;
+
+;
+}
+
+.profile-pic > img{
+  border-radius: 50%;
+}
+
+.profile-name{
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.profile-email{
+  font-size: .8vw;
+}
+
+.center-sidebar{
+    border-bottom: 1px solid #EBEFF2;
+}
+

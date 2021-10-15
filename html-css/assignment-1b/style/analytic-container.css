@@ -1,51 +1,82 @@
 .analytic-main-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
+  align-items: stretch;
+  padding: 1vw;
 }
 
 .analytic-main-container > div {
-  padding:1vw;
-  height: 48%;
+  padding: 1vw;
 }
 
-
-
-/* Function chart card */
-
-.graph-feed {
-  background-color: yellow;
+.function-feed {
+  flex: 1;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.graph-icon {
-  border-color: lightblue;
+.top-card {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
 }
 
-.graph-legend {
+.function-name {
+  flex-grow: 2;
+}
+
+.function-legend {
   display: flex;
   align-items: center;
+  border: solid red 1px;
+  width: 100%;
 }
 
-/* Pie chart card */
+img.function-image {
+  width: 100%;
+  height: 95%;
+}
 
 .pie-feed {
-  background-color: yellow;
-  
+  margin-top: 2vw;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: lightgreen;
 }
+
+/* function graph */
 
 .pie {
+  margin-top: 1vw;
   display: flex;
+  justify-content: space-evenly;
 }
 
-.pie-legends {
+img.pie-image {
+  width: 100%;
+  height: 95%;
+}
+
+.pie-legends{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.pie-legend {
+.pie-legend{
+  margin-top: 1vw;
   display: flex;
   align-items: center;
 }
+
+.circle-icon{
+  margin-right: .5vw;
+}
+
+
+
