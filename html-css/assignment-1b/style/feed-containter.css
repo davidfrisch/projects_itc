@@ -18,5 +18,8 @@
 }
 
 
-
-
+@media (max-width: 1200px) {
+  .event-feed-option{
+    display: none;
+  }
+}

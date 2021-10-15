@@ -2,31 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 1vw;
+  justify-content: space-between;
 }
 
 .analytic-main-container > div {
   padding: 1vw;
 }
 
-
-img.pie-image {
-  width: 9em;
-  height: 9em;
-}
-
-img.function-image {
-  width: 18em;
-  height: 9em
-}
-
 .function-feed {
   flex: 1;
-  background-color: lightgreen;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .top-card {
@@ -41,43 +29,57 @@ img.function-image {
 
 .function-legend {
   display: flex;
-  align-items: center;
   align-self: stretch;
+  align-items: center;
+  padding: 1vw 0;
 }
 
+.function-icon{
+  margin: 1em;
+}
 
+.function-legend-text{
+  margin: 0 .5em;
+}
+
+.function-image {
+  flex: 1;
+  display: flex;
+}
 
 .pie-feed {
   margin-top: 2vw;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  background-color: lightgreen;
+  justify-content: flex-start;
 }
 
 /* function graph */
 
+.top-card.analytic {
+  padding: 1vw 0;
+  border-bottom: solid 1px #ebeff2;
+}
+
 .pie {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
 }
 
-
-.pie-legends{
+.pie-legends {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.pie-legend{
+.pie-legend {
   display: flex;
   align-items: center;
 }
 
-.circle-icon{
-  margin-right: .5vw;
+.circle-icon {
+  margin-right: 0.5vw;
 }
-
-
-

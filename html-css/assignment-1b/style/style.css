@@ -54,98 +54,94 @@ a {
   border: none;
 }
 
-.main-container{
-   border: black 1px solid;
-   background-color: #F4F5F7;
+.main-container {
+  border: black 1px solid;
+  background-color: #f4f5f7;
 }
 
-.feed-main-container{
+.feed-main-container {
   background-color: white;
 }
 
 /* Welcome feed */
 
-.welcome-feed{
+.welcome-feed {
   border-bottom: 1px solid #ebeff2;
-  font-size: .6em;
+  font-size: 0.6em;
 }
 
-.calendar-day{
-  color: #99A6B7;
+.calendar-day {
+  color: #99a6b7;
 }
 
-.calendar-date{
-  margin-top: .5vw;
-  color: #48545D;
+.calendar-date {
+  margin-top: 0.5vw;
+  color: #48545d;
 }
 
-.today{
+.today {
   background-color: #109cf1;
   color: white;
   border-radius: 100%;
   padding: 2px 4px;
 }
 
-.date{
+.date {
   font-weight: bold;
 }
 
-
-
-.progress{
+.progress {
   margin: 1em 0;
 }
 
-
-.date{
+.date {
   margin: 1em 0;
   padding-bottom: 2em;
 }
 
-.calendar{
+.calendar {
   padding: 1em 0;
 }
 
-.calendar-day-date:hover > div{
-    color: #109cf1;
+.calendar-day-date:hover > div {
+  color: #109cf1;
 }
 
 /* filter style */
-select{
+select {
   border: none;
-  color: #4DB5F4;
+  color: #4db5f4;
 }
 
-label{
+label {
   color: #737986;
 }
 
-
 /* feed */
 
-.event-feed-card{
-  font-size: .6em;
+.event-feed-card {
+  font-size: 0.6em;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
 }
 
-.title-card{
+.title-card {
   font-size: 1.5em;
-  font-weight:500;
+  font-weight: 500;
 }
 
-.type-card{
+.type-card {
   font-size: 1em;
 }
 
-.due-date{
+.due-date {
   font-size: 1.4em;
 }
 
-.due-date-title{
-  color: #C7CBCD;
+.due-date-title {
+  color: #c7cbcd;
 }
 
-.bottom-card{
+.bottom-card {
   padding-top: 1.5em;
 }
 .profile-card > .profile-pic > img {
@@ -153,7 +149,6 @@ label{
   margin-right: 1em;
   width: 3em;
   height: 3em;
-
 }
 
 .icon-status-card {
@@ -162,8 +157,7 @@ label{
   margin-right: 0.5vw;
 }
 
-
-button{
+button {
   width: 8em;
   height: 2em;
   font-size: 1em;
@@ -172,17 +166,47 @@ button{
   color: white;
 }
 
-.button-ended{
-  background-color: #F7685B;
+.button-ended {
+  background-color: #f7685b;
 }
 
-.button-completed{
-  background-color: #2ED47A;
+.button-completed {
+  background-color: #2ed47a;
 }
 
-.event-feed-button{
+.event-feed-button {
   background-color: white;
-  color: #109CF1;
+  color: #109cf1;
 }
 
 /* analytics */
+
+.function-feed {
+  background-color: white;
+}
+
+.pie-feed {
+  background-color: white;
+}
+
+img.function-image {
+  width: 27em;
+  height: 16em;
+}
+
+img.pie-image {
+  width: 13em;
+  height: 13em;
+}
+
+@media (max-width: 1200px) {
+  img.function-image {
+    width: 90vw;
+    height: 50vw;
+  }
+
+  img.pie-image {
+    width: 50vw;
+    height: 50vw;
+  }
+}

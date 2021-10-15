@@ -1,4 +1,4 @@
-.main-page{
+.main-page {
   display: flex;
   flex-direction: column;
 }
@@ -12,23 +12,22 @@
 .main-container {
   padding: 2vw;
   display: flex;
-  border: 1px solid #EBEFF2;
+  border: 1px solid #ebeff2;
   justify-content: space-around;
   width: 100%;
-  flex:1;
+  flex: 1;
   overflow-y: scroll;
 }
 
-.search-input{
-  flex:2;
+.search-input {
+  flex: 2;
 }
 
 .feed-main-container {
   width: 52%;
 }
 
-.analytic-main-container{
-  background-color: green;
+.analytic-main-container {
   width: 43%;
 }
 
@@ -36,14 +35,15 @@
   .main-container {
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
+    
   }
 
   .feed-main-container {
-  width: 100%;
-}
+    width: 100%;
+  }
 
-.analytic-main-container{
-  width: 100%;
-}
+  .analytic-main-container {
+    width: 100%;
+    margin-top: 1em;
+  }
 }
