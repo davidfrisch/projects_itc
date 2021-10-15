@@ -1,7 +1,7 @@
 .welcome-feed {
   display: flex;
   flex-direction: column;
-  padding: 1vw 1.4vw;
+  padding: 1em 1.4em;
 }
 
 .top-welcome-feed-page {
@@ -9,19 +9,10 @@
   justify-content: space-between;
 }
 
-.progress {
-  margin: 1.5vw 0;
-}
-
-.date {
-  margin-bottom: 1vw;
-}
-
 .calendar {
   display: flex;
-  margin-top: 1.5vw;
-  margin-bottom: 1vw;
   justify-content: space-between;
+  margin: 0 1em;
 }
 
 .calendar-day-date{

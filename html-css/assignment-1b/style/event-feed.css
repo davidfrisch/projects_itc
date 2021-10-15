@@ -1,43 +1,32 @@
-.event-feed-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: .5vw;
+.event-feed-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5vw;
 }
 
-
-.due-date{
-    display: flex;
-    margin: 1vw 0;
+.due-date {
+  display: flex;
+  margin: 1em 0;
 }
 
-.due-date-title{
-    margin-right: .5em;
+.due-date-title {
+  margin-right: .5em;
 }
 
-.bottom-card{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.bottom-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.profile-card{
-    display: flex;
-    align-items: center;
+.profile-card {
+  display: flex;
+  align-items: center;
 }
 
-.status-card{
-    display: flex;
-    align-items: center;
+.status-card {
+  display: flex;
+  align-items: center;
 }
-
-
-.icon-status-card{
-   width: 1.7em;
-   height: 1.7em;
-   margin-right: .5vw;
-}
-
-
-
 

@@ -9,6 +9,17 @@
   padding: 1vw;
 }
 
+
+img.pie-image {
+  width: 9em;
+  height: 9em;
+}
+
+img.function-image {
+  width: 18em;
+  height: 9em
+}
+
 .function-feed {
   flex: 1;
   background-color: lightgreen;
@@ -34,10 +45,7 @@
   align-self: stretch;
 }
 
-img.function-image {
-  width: 100%;
-  height: 95%;
-}
+
 
 .pie-feed {
   margin-top: 2vw;
@@ -51,15 +59,10 @@ img.function-image {
 /* function graph */
 
 .pie {
-  margin-top: 1vw;
   display: flex;
   justify-content: space-evenly;
 }
 
-img.pie-image {
-  width: 100%;
-  height: 95%;
-}
 
 .pie-legends{
   display: flex;
@@ -68,7 +71,6 @@ img.pie-image {
 }
 
 .pie-legend{
-  margin-top: 1vw;
   display: flex;
   align-items: center;
 }

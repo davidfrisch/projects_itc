@@ -9,13 +9,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1vw;
+  padding: 1em 1em;
 }
 
-.event-feed-card {
-  margin-bottom: 1vw;
-}
-
-.event-feed-option{
+.event-feed-option {
   align-self: center;
+  padding-bottom: 0.5em;
 }
+
+
+
+

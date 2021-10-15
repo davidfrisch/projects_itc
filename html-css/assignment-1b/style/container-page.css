@@ -16,6 +16,7 @@
   justify-content: space-around;
   width: 100%;
   flex:1;
+  overflow-y: scroll;
 }
 
 .search-input{
