@@ -1,0 +1,32 @@
+.event-feed-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .5vw;
+}
+
+
+.due-date{
+    display: flex;
+}
+
+.bottom-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-card{
+    display: flex;
+     align-items: center;
+}
+
+.status-card{
+    display: flex;
+
+}
+
+.icon-status-card{
+   border: red 1px solid;
+}
+

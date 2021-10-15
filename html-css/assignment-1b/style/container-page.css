@@ -25,12 +25,12 @@
 
 .feed-main-container {
   background-color: red;
-  width: 55%;
+  width: 52%;
 }
 
 .analytic-main-container{
   background-color: green;
-  width: 40%;
+  width: 43%;
 }
 
 @media (max-width: 1200px) {
