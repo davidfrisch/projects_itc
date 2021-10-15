@@ -1,39 +1,46 @@
-.event-feed{
+.event-feed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.event-feed-card {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+.top-card {
+  display: flex;
+}
+
+.type-card {
+  margin-left: auto;
+}
+
+.due-date {
+  display: flex;
+}
+
+.bottom-card {
+  display: flex;
+  align-items: flex-end;
+}
+
+.status-card {
+  margin-left: auto;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .event-feed-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
-}
-
-.event-feed-card{
-    display: flex;
-    flex-direction: column;
-    background-color: yellow;
-    padding: 1vw;
-}
-
-.top-card{
-    display: flex;
-}
-
-.type-card{
-    margin-left: auto;
-}
-
-.due-date{
-    display: flex;
-}
-
-.bottom-card{
-    display: flex;
-    align-items: flex-end;
-}
-
-.status-card{
-    margin-left: auto;
-}
-
-.profile-card{
-    display: flex;
-    align-items: center;
+    margin: 2vw;
+  }
 }

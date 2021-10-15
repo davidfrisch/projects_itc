@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  position: relative;
-  background-color: blueviolet;
+  border: black 1px solid;
+
+}
+
+.welcome-feed{
+  background-color: yellow;
 }
 
 
 
-.event-feed {
-  background-color: gray;
-  padding: 1vw;
-}

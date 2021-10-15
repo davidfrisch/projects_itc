@@ -11,7 +11,7 @@
 }
 
 img.analytic-image {
-  width: 90%;
+  width: 80%;
 }
 
 /* Function chart card */
@@ -33,6 +33,7 @@ img.analytic-image {
 
 .pie-feed {
   background-color: yellow;
+  
 }
 
 .pie {

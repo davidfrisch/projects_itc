@@ -1,18 +1,21 @@
 .main-page {
   display: flex;
   flex-direction: column;
+  background-color: red;
 }
 
 .main-top-bar {
   position: relative;
-  
   padding: 1em;
   display: flex;
   justify-content: center;
 }
 
 .main-container {
+  position: relative;
   display: flex;
+  overflow: auto;
+  height: 100%;
 }
 
 .search-input {
@@ -27,6 +30,10 @@
   width: 45%;
 }
 
+.feed-main-container > div, .analytic-main-container > div{
+  margin: 1vw;
+}
+
 @media (max-width: 1200px) {
   .main-container {
     flex-direction: column;
@@ -39,6 +46,5 @@
 
   .analytic-main-container {
     width: 100%;
-    border: purple 1px solid;
   }
-} 
+}
