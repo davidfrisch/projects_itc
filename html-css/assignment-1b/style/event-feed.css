@@ -1,14 +1,16 @@
 .event-feed {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 100%;
+  justify-content: space-between;
+  background-color: red;
+  height: 80%;
 }
 
 .event-feed-card {
   display: flex;
   flex-direction: column;
   background-color: yellow;
+  padding: 2% .5%;
 }
 
 .top-card {

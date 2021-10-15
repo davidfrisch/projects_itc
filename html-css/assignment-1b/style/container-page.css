@@ -1,7 +1,7 @@
 .main-page {
   display: flex;
   flex-direction: column;
-  background-color: red;
+  background-color: blue;
 }
 
 .main-top-bar {
@@ -12,10 +12,9 @@
 }
 
 .main-container {
-  position: relative;
   display: flex;
   overflow: auto;
-  height: 100%;
+  height: 90%;
 }
 
 .search-input {
@@ -23,15 +22,18 @@
 }
 
 .feed-main-container {
-  width: 55%;
+  width: 60%;
+  margin-top: 2vw;
 }
 
 .analytic-main-container {
-  width: 45%;
+  width: 40%;
+  margin-top: 2vw;
 }
 
-.feed-main-container > div, .analytic-main-container > div{
-  margin: 1vw;
+.feed-main-container > div,
+.analytic-main-container > div {
+  width: 90%;
 }
 
 @media (max-width: 1200px) {

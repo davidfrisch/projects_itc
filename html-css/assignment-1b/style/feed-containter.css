@@ -2,13 +2,18 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
   border: black 1px solid;
-
+  position: relative;
 }
 
-.welcome-feed{
-  background-color: yellow;
+.welcome-feed {
+  background-color: lightblue;
+  height: 30%;
 }
 
+.feed-event{
+  height: 70%;
+}
 
 

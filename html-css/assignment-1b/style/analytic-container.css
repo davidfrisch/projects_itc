@@ -1,18 +1,17 @@
 .analytic-main-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .analytic-main-container > div {
-  padding: 2vw;
-  width: 90%;
+  padding:1vw;
+  height: 48%;
 }
 
-img.analytic-image {
-  width: 80%;
-}
+
 
 /* Function chart card */
 
