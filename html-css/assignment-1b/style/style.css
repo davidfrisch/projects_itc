@@ -4,6 +4,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #334d6e;
 }
 
 .circle-icon.red {
@@ -42,6 +43,9 @@ a {
   border-bottom: 1px solid #ebeff2;
 }
 
+.sidebar > * > * > li > a:hover, .settings-sidebar:hover {
+  filter: invert(50%) sepia(75%) saturate(2148%) hue-rotate(175deg) brightness(94%) contrast(101%);
+}
 /* search bar */
 .main-top-bar {
   /* white */
@@ -190,8 +194,8 @@ button {
 }
 
 img.function-image {
-  width: 27em;
-  height: 16em;
+  width: 25em;
+  height: 14em;
 }
 
 img.pie-image {

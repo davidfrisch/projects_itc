@@ -25,10 +25,12 @@
 
 .feed-main-container {
   width: 52%;
+  overflow: auto;
 }
 
 .analytic-main-container {
   width: 43%;
+  overflow: auto;
 }
 
 @media (max-width: 1200px) {
