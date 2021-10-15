@@ -1,8 +1,8 @@
 ul {
- list-style: none;
+  list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -18,27 +18,81 @@ a{
 
 /* sidebar */
 
-.top-sidebar{
-  border-bottom: 1px solid #EBEFF2;
-  color: #109CF1;
-
-;
+.top-sidebar {
+  border-bottom: 1px solid #ebeff2;
+  color: #109cf1;
 }
 
-.profile-pic > img{
+.profile-pic > img {
   border-radius: 50%;
 }
 
-.profile-name{
+.profile-name {
   font-size: 1vw;
   font-weight: bold;
 }
 
-.profile-email{
-  font-size: .8vw;
+.profile-email {
+  font-size: 0.8vw;
 }
 
-.center-sidebar{
-    border-bottom: 1px solid #EBEFF2;
+.center-sidebar {
+  border-bottom: 1px solid #ebeff2;
 }
 
+/* search bar */
+.main-top-bar {
+  /* white */
+  background: #ffffff;
+  /* card shadow */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.search-input {
+  border: none;
+}
+
+.main-container{
+   border: black 1px solid;
+   background-color: #F4F5F7;
+}
+
+.feed-main-container{
+  background-color: white;
+}
+
+.welcome-feed{
+  border-bottom: 1px solid #ebeff2;
+}
+
+.calendar-day{
+  color: #99A6B7;
+}
+
+.calendar-date{
+  margin-top: .5vw;
+  color: #48545D;
+}
+
+.today{
+  background-color: #109cf1;
+  color: white;
+  border-radius: 100%;
+  padding: 2px 4px;
+}
+
+.calendar-day-date:hover > div{
+    color: #109cf1;
+}
+
+/* filter style */
+select{
+  border: none;
+}
+
+
+/* feed */
+
+
+
+/* analytics */

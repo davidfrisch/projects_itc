@@ -31,12 +31,8 @@
     align-items: center;
 }
 
-.status-card:hover{
-    border: 1px green solid;
-}
 
 .icon-status-card{
-   border: red 1px solid;
    width: 1.7em;
    height: 1.7em;
    margin-right: .5vw;

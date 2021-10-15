@@ -4,16 +4,15 @@
 }
 
 .main-top-bar {
-  padding: .8em;
-  border: solid red 1px;
+  padding: 1.05em 2vw;
   position: relative;
   display: flex;
 }
 
 .main-container {
-  padding: 1vw;
+  padding: 2vw;
   display: flex;
-  background-color: lightblue;
+  border: 1px solid #EBEFF2;
   justify-content: space-around;
   width: 100%;
   flex:1;
@@ -24,7 +23,6 @@
 }
 
 .feed-main-container {
-  background-color: red;
   width: 52%;
 }
 
@@ -41,12 +39,10 @@
   }
 
   .feed-main-container {
-  background-color: red;
   width: 100%;
 }
 
 .analytic-main-container{
-  background-color: green;
   width: 100%;
 }
 }

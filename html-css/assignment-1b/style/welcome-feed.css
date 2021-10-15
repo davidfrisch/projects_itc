@@ -1,5 +1,4 @@
 .welcome-feed {
-  background-color: pink;
   display: flex;
   flex-direction: column;
   padding: 1vw 1.4vw;
@@ -8,7 +7,6 @@
 .top-welcome-feed-page {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .progress {
@@ -24,7 +22,6 @@
   margin-top: 1.5vw;
   margin-bottom: 1vw;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .calendar-day-date{
