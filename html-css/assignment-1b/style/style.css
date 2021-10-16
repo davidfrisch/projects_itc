@@ -8,9 +8,9 @@ a {
 }
 
 .circle-icon{
-    width: 1vw;
-    height: 1vw;
-    border: #109CF1 .3vw solid;
+    width: .7em;
+    height: .7em;
+    border: #109CF1 .2em solid;
     border-radius: 50%;
     background-color: white;
 }
@@ -216,16 +216,20 @@ button {
   background-color: white;
 }
 
+.pie-text-legends{
+  font-size: .7em;
+}
+
 .analytic-image {
   font-size: 9px;
 }
 
 img.function-image {
-  width: 45em;
-  height: 20em;
+  width: 40em;
+  height: 18em;
 }
 
 img.pie-image {
-  width: 16em;
-  height: 16em;
+  width: 19em;
+  height: 19em;
 }

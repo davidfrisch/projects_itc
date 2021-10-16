@@ -63,21 +63,27 @@
 
 .pie {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex: 1;
   padding-top: 1em;
+}
+
+.pie-circle-image{
+  margin-right: 1em;
 }
 
 .pie-legends {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 2em;
 }
 
 .pie-legend {
   display: flex;
   align-items: center;
+  margin: .2em 0
 }
 
 .circle-icon {
