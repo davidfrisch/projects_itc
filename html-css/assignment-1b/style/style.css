@@ -7,6 +7,14 @@ a {
   color: #334d6e;
 }
 
+.circle-icon{
+    width: 1vw;
+    height: 1vw;
+    border: #109CF1 .3vw solid;
+    border-radius: 50%;
+    background-color: white;
+}
+
 .circle-icon.red {
   border-color: red;
 }
@@ -63,6 +71,7 @@ a {
 .main-container {
   border: black 1px solid;
   background-color: #f4f5f7;
+  border: 1px solid #ebeff2;
 }
 
 .feed-main-container {
@@ -197,6 +206,10 @@ button {
 
 .function-feed {
   background-color: white;
+}
+
+.top-card.analytic {
+  border-bottom: solid 1px #ebeff2;
 }
 
 .pie-feed {

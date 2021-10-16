@@ -14,13 +14,7 @@ html, body{
     flex:5;
 }
 
-.circle-icon{
-    width: 1vw;
-    height: 1vw;
-    border: #109CF1 .3vw solid;
-    border-radius: 50%;
-    background-color: white;
-}
+
 
 @media (max-width: 1200px) {
     body{
