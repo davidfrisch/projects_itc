@@ -43,8 +43,10 @@ a {
   border-bottom: 1px solid #ebeff2;
 }
 
-.sidebar > * > * > li > a:hover, .settings-sidebar:hover {
-  filter: invert(50%) sepia(75%) saturate(2148%) hue-rotate(175deg) brightness(94%) contrast(101%);
+.sidebar > * > * > li > a:hover,
+.settings-sidebar:hover {
+  filter: invert(50%) sepia(75%) saturate(2148%) hue-rotate(175deg)
+    brightness(94%) contrast(101%);
 }
 /* search bar */
 .main-top-bar {
@@ -84,10 +86,12 @@ a {
 }
 
 .today {
+  margin-top: 0em;
   background-color: #109cf1;
+  border: .5em solid;
+  border-color: #109cf1;
   color: white;
   border-radius: 100%;
-  padding: 2px 4px;
 }
 
 .date {
@@ -99,8 +103,8 @@ a {
 }
 
 .date {
-  margin: 1em 0;
-  padding-bottom: 2em;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
 }
 
 .calendar {
@@ -124,7 +128,7 @@ label {
 /* feed */
 
 .event-feed-card {
-  font-size: 0.6em;
+  font-size: 8px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
 }
 
@@ -146,8 +150,9 @@ label {
 }
 
 .bottom-card {
-  padding-top: 1.5em;
+  padding-top: 1em;
 }
+
 .profile-card > .profile-pic > img {
   border-radius: 50%;
   margin-right: 1em;
@@ -181,9 +186,14 @@ button {
 .event-feed-button {
   background-color: white;
   color: #109cf1;
+  font-size: 0.8em;
 }
 
 /* analytics */
+
+.analytic-main-container{
+  font-size: 12px;
+}
 
 .function-feed {
   background-color: white;
@@ -193,24 +203,16 @@ button {
   background-color: white;
 }
 
+.analytic-image {
+  font-size: 9px;
+}
+
 img.function-image {
-  width: 25em;
-  height: 14em;
+  width: 45em;
+  height: 20em;
 }
 
 img.pie-image {
-  width: 13em;
-  height: 13em;
-}
-
-@media (max-width: 1200px) {
-  img.function-image {
-    width: 90vw;
-    height: 50vw;
-  }
-
-  img.pie-image {
-    width: 50vw;
-    height: 50vw;
-  }
+  width: 16em;
+  height: 16em;
 }
