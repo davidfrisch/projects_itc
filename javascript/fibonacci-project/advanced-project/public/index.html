@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>ITC / The Fibonacci Calculator</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="display-4">Fibonacci Calculator</div>
+    </div>
+    <div class="container mt-5">
+      <div class="d-flex align-items-center">
+        <span>The Fibonacci Number Of: </span>
+        <small class="d-flex align-items-center">
+          <input
+            id="input-fibonacci"
+            type="number"
+            size="number"
+            placeholder="#"
+            class="w-25 ms-2 me-1"
+          />
+          <button id="btn-fibonacci" class="btn btn-primary me-2 btn-sm">
+            Is
+          </button>
+          <div
+            id="spinner-fibonacci"
+            class="d-none spinner-border spinner-sm text-dark ms-2"
+          ></div>
+          <span class="ms-2"
+            ><strong><u id="output-fibonacci"></u></strong
+          ></span>
+        </small>
+      </div>
+      <div class="d-flex align-items-center">
+        <input id="checkbox-fibonacci" type="checkbox" class="me-1" />
+        <button id="button-checkbox-fibonacci" class="btn shadow-none">
+          Save Calculation
+        </button>
+        <small
+          id="error-fibonnaci"
+          class="alert-danger rounded ms-4 d-inline-text p-1 d-none"
+          role="alert"
+        >
+          Can't be larger than 50
+        </small>
+      </div>
+    </div>
+
+    <div class="container mt-5 overflow-auto">
+      <div class="d-flex align-items-center">
+        <div class="display-5 pe-3">Results</div>
+        <div
+          id="spinner-fibonacciHistory"
+          class="spinner-border text-dark d-block"
+        ></div>
+      </div>
+
+      <div id="dropdown-fibonacci" class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle mt-2"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Sort by
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li>
+            <a id="number-asc" class="dropdown-item last-selected" href="#"
+              >Number Asc</a
+            >
+          </li>
+          <li><hr class="dropdown-divider" /></li>
+          <li>
+            <a id="number-desc" class="dropdown-item" href="#">Number Desc</a>
+          </li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a id="date-asc" class="dropdown-item" href="#">Date Asc</a></li>
+          <li><hr class="dropdown-divider" /></li>
+          <li>
+            <a id="date-desc" class="dropdown-item" href="#">Date Desc</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="history-fibonacci" class="ms-1 mt-5 mb-2"></div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="./src/tools.js"></script>
+  <script type="text/javascript" src="./src/fibonacci.js"></script>
+  <script type="text/javascript" src="./src/display.js"></script>
+  <script type="text/javascript" src="./src/main.js"></script>
+</html>
