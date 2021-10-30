@@ -19,7 +19,7 @@ Keywords:
 - Responsive design
 - Flexbox
 
-## Assignment 2 - Javascript
+## Assignment 2 - Javascript - Fibonacci Project
 
 The objective of the second project was to create our first front-end website capable of calculating the Fibonacci value of a certain number locally or from a request to a server. We also needed to retrieve the history of previous calculated values requested from the server and display them as a list.
 
