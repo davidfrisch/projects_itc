@@ -27,7 +27,7 @@ In addition, for the experienced junior developpers, we took our first steps int
 
 - Fulfill the client's request to calculate the fibonacci value and return it to the client. 
 - Save the request in a MongoDB database. 
-- Send the history of the client's query.
+- Send the history of the client old queries.
 
 Keywords:
 
