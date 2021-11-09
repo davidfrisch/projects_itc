@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../res/cosmos.jpg");
+}
+
+@keyframes loading {
+  0% {
+    display: block;
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(-100%);
+    display: none;
+  }
+}
+
+#rocket {
+  width: 50%;
+}
+
+#loading-page {
+  position: absolute;
+  visibility: hidden;
+  color: white;
+  background-color: #070636;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: loading 4s ease-in 1;
+}
+
+#compInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-company-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.221);
+}
+
+.container-profile {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.886);
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.company-logo {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+}
+
+.company-description {
+  margin: 3rem 0;
+  width: 80%;
+}
+
+.company-graph-container {
+  width: 50%;
+  height: 20rem;
+}
+
+.divNameAndSymbol {
+  display: flex;
+  flex-direction: column;
+}
+
+.divCountry {
+  display: flex;
+  flex-direction: column;
+}
+
+.divSector {
+  display: flex;
+  flex-direction: column;
+}
+
+.country-flag {
+  width: 24px;
+  height: 18px;
+  margin-left: 1rem;
+}
+
+.company-description {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: rgba(240, 248, 255, 0.886);
+}
+
+.title-description {
+  font-size: 3rem;
+}
+
+.text-description {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.company-graph-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.886);
+  padding: 4rem;
+  width: 100%;
+}

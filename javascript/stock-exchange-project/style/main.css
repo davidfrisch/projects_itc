@@ -1,0 +1,27 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.company-logo-main {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1rem;
+}
+
+nav {
+  width: 100%;
+}
+
+.nav-home-button {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.nav-home-button:hover {
+  background-color: rgba(0, 0, 0, 0.249);
+  color: white;
+  padding: 0.5rem;
+}
