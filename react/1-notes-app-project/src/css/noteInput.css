@@ -1,0 +1,14 @@
+.note-input-container{
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.note-input-text-area{
+  height: 5em;
+  min-width: 80%;
+  min-height: 5em;
+}
+
+
+

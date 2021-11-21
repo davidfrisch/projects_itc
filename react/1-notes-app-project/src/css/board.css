@@ -1,0 +1,50 @@
+.board {
+  display: flex;
+}
+
+.main-board {
+  flex: 1;
+  font-size: 12px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #cecbcb56;
+}
+
+.bottom-nav {
+  display: none;
+}
+
+.sidebar-content {
+  position: fixed;
+  overflow-y: auto;
+}
+
+.sidebar {
+  z-index: 1;
+  right: 0;
+  height: 100vh;
+  width: 200px;
+}
+
+.sidebar-title-archive {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-board {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bottom-nav {
+    display: block;
+  }
+}

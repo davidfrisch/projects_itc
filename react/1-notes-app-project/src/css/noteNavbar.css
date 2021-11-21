@@ -1,0 +1,39 @@
+.note-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-navbar {
+  display: flex;
+  width: 20vw;
+  align-items: center;
+}
+
+.title-navbar > * {
+  margin-left: 10px;
+}
+
+.toggle-navbar {
+  margin-right: 2vw;
+}
+
+@media (max-width: 800px) {
+  .note-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .title-navbar{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .toggle-navbar {
+    margin-left: auto;
+    display: none;
+  }
+}

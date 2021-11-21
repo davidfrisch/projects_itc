@@ -1,0 +1,40 @@
+.note-container {
+  width: 15rem;
+  min-width: 8vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5vw;
+}
+
+.note-header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-content {
+  padding: 0 10px;
+  min-height: 15vh;
+}
+
+.note-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.note-text {
+  overflow-y: auto;
+  height: 5vw;
+}
+
+.container-reminder-button{
+  height: auto;
+  width: max-content;
+  padding: 0 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+
