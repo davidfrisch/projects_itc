@@ -54,3 +54,36 @@ Keywords:
 - Scope 
 - Closure
 - Modules
+
+## Assignment 4 - React - Notes App
+(Time to do it : 8 days)
+
+This is our first react project ! 
+The goal of this project is to create a note app.
+One can create, add, change and delete notes.
+The website is mobile responsive and uses localforage to keep your notes saved even after you quit the website.
+
+Cool features : 
+- Color the notes
+- smooth animation when switching between current and archives notes
+- Notification compatible with mobile and saved in the localforage
+- Drag N Drop
+- Different style if desktop or mobile
+- Always keep track of your archives thanks to the sidebar
+
+Hope you'll enjoy playing around with it !
+
+
+Keywords:
+
+- Class and function components
+- States and props
+- Lifting state up
+- Lists and keys
+- React Modal elements
+- localforage
+- Netlify
+- [mui.com](mui.com)
+
+
+
