@@ -56,7 +56,7 @@ Keywords:
 - Modules
 
 ## Assignment 4 - React - Notes App
-(Time to do it : 8 days)
+(Time to do it : 6 days)
 
 This is our first react project ! 
 The goal of this project is to create a note app.
