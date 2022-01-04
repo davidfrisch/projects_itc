@@ -1,0 +1,32 @@
+{
+  "name": "fs_pet_adoption_be-davidfrisch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israeltechchallenge/fs_pet_adoption_be-davidfrisch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.27.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.9.29"
+  },
+  "bugs": {
+    "url": "https://github.com/israeltechchallenge/fs_pet_adoption_be-davidfrisch/issues"
+  },
+  "homepage": "https://github.com/israeltechchallenge/fs_pet_adoption_be-davidfrisch#readme"
+}
